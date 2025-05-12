@@ -21,6 +21,7 @@
 git clone https://github.com/minh041104/Helmet-Detection.git
 cd Helmet-Detection
 pip install -r requirements.txt
+```
 
 ### 2. Cấu hình Roboflow `config.yaml
 `
