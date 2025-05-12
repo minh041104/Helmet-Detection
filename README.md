@@ -15,7 +15,7 @@
 
 ## ⚙️ Cài đặt và chạy
 
-### 1. Tạo môi trường ảo và cài đặt thư viện
+### 1. Cài đặt thư viện
 
 ```bash
 git clone https://github.com/minh041104/Helmet-Detection.git
