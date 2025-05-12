@@ -23,9 +23,9 @@ cd Helmet-Detection
 pip install -r requirements.txt
 ```
 
-### 2. Cấu hình Roboflow `config.yaml
-`
+### 2. Cấu hình Roboflow trong config.yaml
 
 ### 3. Chạy ứng dụng
 ```bash
+cd .\src\inference\
 python run.py
