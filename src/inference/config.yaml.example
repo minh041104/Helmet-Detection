@@ -1,0 +1,5 @@
+roboflow:
+  api_key: ""
+  workspace: ""
+  project: ""
+  version: 1

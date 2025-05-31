@@ -1,5 +1,0 @@
-roboflow:
-  api_key: "YOUR_API_KEY"
-  workspace: "your-workspace"
-  project: "your-project-name"
-  version: 1

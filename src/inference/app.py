@@ -24,4 +24,4 @@ with gr.Blocks() as demo:
         video_button = gr.Button("Detect Helmet (Video)")
         video_button.click(fn=lambda vid: process_video(vid, model), inputs=video_input, outputs=video_output)
 
-demo.launch()
+demo.launch(server_name="0.0.0.0", server_port=8000)

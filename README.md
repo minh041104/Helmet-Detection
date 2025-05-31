@@ -25,9 +25,15 @@ pip install -r requirements.txt
 
 ### 2. Cấu hình Roboflow
 ```bash
-\src\inference\config.yaml
+cp src/inference/config.yaml.example src/inference/config.yaml
 ```
-### 3. Chạy ứng dụng
+### 3.1 Run without docker
 ```bash
 cd .\src\inference\
 python run.py
+```
+
+### 3.2 Run with docker (optional)
+```bash
+docker build -t helmet-detection .
+docker run -e PYTHONUNBUFFERED=1 -p 8000:8000 helmet-detection
